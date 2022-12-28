@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Bagad Bam by Paradox", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "No Love by Subh", filePath: "songs/2.mp3", coverPath: "covers/2.jpeg"},
-    {songName: "Baller by Subh", filePath: "songs/3.mp3", coverPath: "covers/3.jpeg"},
-    {songName: "Insane by AP Dhillon", filePath: "songs/4.mp3", coverPath: "covers/4.jpeg"},
-    {songName: "Welcome-Ucha Lamba Kad", filePath: "songs/5.mp3", coverPath: "covers/5.jpeg"},
-    {songName: "Tu Aake Dekhle- King ", filePath: "songs/2.mp3", coverPath: "covers/6.jpeg"},
-    {songName: "Dheree Dheree Se- Yo Yo Honey Singh", filePath: "songs/2.mp3", coverPath: "covers/7.jpeg"},
-    {songName: "Tu Jaane Na- Atif Aslam", filePath: "songs/2.mp3", coverPath: "covers/8.jpeg"},
-    {songName: "Kali Kali Zulfo Ke- Madhur Sharma", filePath: "songs/2.mp3", coverPath: "covers/9.jpeg"},
-    {songName: "Bakudha Tumhi ho", filePath: "songs/4.mp3", coverPath: "covers/10.jpeg"},
+    {songName: "Bagad Bam by Paradox", filePath: "1.mp3", coverPath: "1.jpg"},
+    {songName: "No Love by Subh", filePath: "2.mp3", coverPath: "2.jpeg"},
+    {songName: "Baller by Subh", filePath: "3.mp3", coverPath: "3.jpeg"},
+    {songName: "Insane by AP Dhillon", filePath: "4.mp3", coverPath: "4.jpeg"},
+    {songName: "Welcome-Ucha Lamba Kad", filePath: "5.mp3", coverPath: "5.jpeg"},
+    {songName: "Tu Aake Dekhle- King ", filePath: "2.mp3", coverPath: "6.jpeg"},
+    {songName: "Dheree Dheree Se- Yo Yo Honey Singh", filePath: "2.mp3", coverPath: "7.jpeg"},
+    {songName: "Tu Jaane Na- Atif Aslam", filePath: "2.mp3", coverPath: "8.jpeg"},
+    {songName: "Kali Kali Zulfo Ke- Madhur Sharma", filePath: "2.mp3", coverPath: "9.jpeg"},
+    {songName: "Bakudha Tumhi ho", filePath: "4.mp3", coverPath: "10.jpeg"},
 ]
 
 songItems.forEach((element, i)=>{ 
